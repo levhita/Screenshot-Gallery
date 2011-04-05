@@ -124,6 +124,5 @@
       }
       $this->time_since = $print;
     }
-  
   }
 ?>

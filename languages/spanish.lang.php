@@ -1,7 +1,7 @@
 <?php
 /**
  * Spanish translation for Screenshot Gallery
- * Armando Argel Arias Castañeda <levhita@gmail.com>
+ * Argel Arias <argel.arias@levhita.net>
  **/
   
   

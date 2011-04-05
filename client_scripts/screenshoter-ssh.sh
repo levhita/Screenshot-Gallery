@@ -3,7 +3,7 @@
 # to a FTP server, the generated files workgreat with the PHP file.
 # @author Argel Arias <levhita@gmail.com>
 # @package Screenshots Gallery
-# @link http://levhita.net/screenshots_gallery/
+# @link https://github.com/levhita/Screenshot-Gallery
 # @license GPL of course
 
 HOST=YourHost.com

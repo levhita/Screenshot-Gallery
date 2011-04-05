@@ -1,9 +1,9 @@
 #!/bin/bash
 # Takes a screenshot, generates 3 diferent resolution files,and upload them
 # to a FTP server, the generated files workgreat with the PHP file.
-# @author Argel Arias <levhita@gmail.com>
+# @author Argel Arias <argel.arias@levhita.net>
 # @package Screenshots Gallery
-# @link http://levhita.net/screenshots_gallery/
+# @link https://github.com/levhita/Screenshot-Gallery
 # @license GPL of course
 
 HOST=YourHost.com

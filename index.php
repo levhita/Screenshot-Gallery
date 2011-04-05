@@ -1,9 +1,9 @@
 <?php
 /**
- * Copyright 2006(c) Armando Argel Arias Castañeda
+ * Copyright 2006(c) Argel Arias "Levhita"
  *
- * Email: levhita@gmail.com
- * URL: http://levhita.net/screenshots_gallery
+ * Email: argel.arias@levhita.net
+ * URL: https://github.com/levhita/Screenshot-Gallery
  *
  * This file is part Screenshoter
  *
