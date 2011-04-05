@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^s-(.+) ?screenshot=$1 [NC]

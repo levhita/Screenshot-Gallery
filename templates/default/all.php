@@ -14,6 +14,7 @@
     <meta name="description" content="<?php echo SCR_DESCRIPTION ?>" />
     <meta name="keywords" content="<?php echo SCR_KEYWORDS ?>" />
     <meta name="generator" content="<?php echo SCR_GENERATOR ?>" />
+    <base href="<?php echo SCR_WEB_ROOT ?>" />
   </head>
   
   <body>
@@ -27,7 +28,7 @@
       <?php 
       foreach ( $Images->getAll() as $Image) {
       ?>
-        <a href="?screenshot=<?php echo $Image->base_name ?>" title="<?php echo $Image->time_since ?>">
+        <a href="s-<?php echo $Image->base_name ?>" title="<?php echo $Image->time_since ?>">
         <img src="<?php echo $Image->thumbnail_file ?>" alt="<?php echo $Image->title ?>" /></a>
       <?php
       }

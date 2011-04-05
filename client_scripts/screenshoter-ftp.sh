@@ -52,4 +52,5 @@ send ${IMAGES_DIR}/screenshot-${DATE}-thumb.png ${REMOTE_DIR}/thumbnail.png
 bye
 **
 
+tw "Posted new Screenshot: http://levhita.net/screenshots/s/${DATE}";
 echo 'done.'
