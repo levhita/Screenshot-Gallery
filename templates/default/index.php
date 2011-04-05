@@ -14,7 +14,6 @@
     <meta name="description" content="<?php echo SCR_DESCRIPTION ?>" />
     <meta name="keywords" content="<?php echo SCR_KEYWORDS ?>" />
     <meta name="generator" content="<?php echo SCR_GENERATOR ?>" />
-    <base href="<?php echo SCR_WEB_ROOT ?>" />
   </head>
   
   <body>
@@ -27,18 +26,18 @@
     <div id="sample">
       <div class="previous">
         <?php if($Current->previous){ ?>
-          <a href="s-<?php echo $Current->previous ?>">&lt;&lt; <?php echo __('Previous') ?></a>
+          <a href="<?php echo SCR_WEB_ROOT ?>/s-<?php echo $Current->previous ?>">&lt;&lt; <?php echo __('Previous') ?></a>
         <?php } ?>
       </div>
       <div class="next">
         <?php if($Current->next){ ?>
-          <a href="s-<?php echo $Current->next ?>"><?php echo __('Next') ?> &gt;&gt;</a>
+          <a href="<?php echo SCR_WEB_ROOT ?>/s-<?php echo $Current->next ?>"><?php echo __('Next') ?> &gt;&gt;</a>
         <?php } ?>
       </div>
       
       <p>
-        <a href="<?php echo $Current->full_file ?>" title="<?php echo $Current->title ?>">
-        <img src="<?php echo $Current->sample_file ?>"
+        <a href="<?php echo SCR_WEB_ROOT ?>/<?php echo $Current->full_file ?>" title="<?php echo $Current->title ?>">
+        <img src="<?php echo SCR_WEB_ROOT ?>/<?php echo $Current->sample_file ?>"
         alt="<?php echo $Current->title ?>" width="800"/></a><br />
         <?php echo $Current->description ?>
       </p>
@@ -49,9 +48,9 @@
       <?php 
       foreach ( $Images->getSurrounding(4, $Current->base_name) as $Image) {
       ?>
-        <a href="s-<?php echo $Image->base_name ?>" title="<?php echo $Image->time_since ?>">
+        <a href="<?php echo SCR_WEB_ROOT ?>/s-<?php echo $Image->base_name ?>" title="<?php echo $Image->time_since ?>">
         <img <?php echo ($Current->base_name==$Image->base_name) ? "class='current'" : ''; ?>
-        src="<?php echo $Image->thumbnail_file ?>" alt="<?php echo $Image->title ?>" /></a>
+        src="<?php echo SCR_WEB_ROOT ?>/<?php echo $Image->thumbnail_file ?>" alt="<?php echo $Image->title ?>" /></a>
       <?php
       }
       ?>
