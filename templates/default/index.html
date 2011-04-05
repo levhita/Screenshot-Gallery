@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns=" http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <title>Screenshots Gallery - {$current.title}</title>
+  <link href="style" type="text/css" media="screen" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+  <body>
+    
+    <div id="sample">
+      <h1>{$current.title}</h1>
+      <a href="{$current.full_view}"><img src="{$current.sample}" alt="{$current.title}" /></a>
+      <p>{$current.description}</p>
+    </div>
+    
+    <div id="thumbnails">
+      {surrounding elements="5"}
+      <a href="{$image.full_view}" title="{$image.title}"><img {ifcurrent}class="current"{/ifcurrent} src="{$image.thumbnail}" alt="{$image.title}" /></a>
+      {/surrounding}
+    </div>
+  
+    <div class="footer">
+      <p>Powered By <strong>Screenshots Gallery</strong><br />
+      Armando Argel Arias &copy;2006<br />
+      This is a Free Software released under a GPL license.</p>
+    </div>
+  </body>
+</html>
