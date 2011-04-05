@@ -33,7 +33,7 @@
     'second'  => 'segundo',
     'copyright notice' => 
     "Hecho con <a href=\"https://github.com/levhita/Screenshot-Gallery\">Screenshots Gallery</a><br />
-    &copy;2006 <a href=\"http://levhita.net/\" title=\"Levhita\">Argel Arias</a><br />
+    &copy;2011 <a href=\"http://levhita.net/\" title=\"Levhita\">Argel Arias</a><br />
     Este software esta bajo la licencia GPL",
   );
 ?>

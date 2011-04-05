@@ -18,7 +18,7 @@
   (
     'copyright notice' => 
     "Powered by <a href=\"https://github.com/levhita/Screenshot-Gallery/\">Screenshots Gallery</a><br />
-    &copy;2006 <a href=\"http://levhita.net/\" title=\"Levhita\">Argel Arias</a><br />
+    &copy;2011 <a href=\"http://levhita.net/\" title=\"Levhita\">Argel Arias</a><br />
     This is a Free Software released under the GPL license",
   );
 
