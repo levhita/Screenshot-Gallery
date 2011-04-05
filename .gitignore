@@ -2,4 +2,5 @@
 .project
 .settings/
 config.php
-images/*
+images/*.png
+images/*.jpg
