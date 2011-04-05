@@ -16,10 +16,10 @@ echo 'taking screenshot...'
 scrot "screenshot-full-${DATE}.png"
 
 echo 'generating thumbnail...'
-convert -size 204x153 screenshot-full-${DATE}.png -strip  -depth 8  -colors 256  -quality 95 -thumbnail 204x153 screenshot-full-${DATE}-thumb.png
+convert -size 204x153> screenshot-full-${DATE}.png -strip  -depth 8  -colors 256  -quality 95 -thumbnail 204x153> screenshot-full-${DATE}-thumb.png
 
 echo 'resizing sample...'
-mogrify -resize 800x600 -format jpg -quality 75% screenshot-full-${DATE}.png
+mogrify -resize 800x600> -format jpg -quality 75% screenshot-full-${DATE}.png
 
 echo 'uploading sample...'
 scp ${IMAGES_DIR}/screenshot-${DATE}.jpg $USER@$HOST:${REMOTE_DIR}/screenshot-${DATE}.jpg

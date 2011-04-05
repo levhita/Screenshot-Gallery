@@ -27,7 +27,6 @@ img {
 }
 #thumbnails .current{
   width:214px;
-  height:163px;
   padding:0px;
 }
 #thumbnails img {
@@ -36,7 +35,6 @@ img {
 
 #thumbnails img:hover {
   width:214px;
-  height:163px;
   padding:0px;
 }
 

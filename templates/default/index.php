@@ -38,7 +38,7 @@
       <p>
         <a href="<?php echo $Current->full_file ?>" title="<?php echo $Current->title ?>">
         <img src="<?php echo $Current->sample_file ?>"
-        alt="<?php echo $Current->title ?>" width="800" height="600" /></a><br />
+        alt="<?php echo $Current->title ?>" width="800"/></a><br />
         <?php echo $Current->description ?>
       </p>
       
