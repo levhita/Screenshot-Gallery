@@ -32,8 +32,8 @@
     'minute'  => 'minuto',
     'second'  => 'segundo',
     'copyright notice' => 
-    "Hecho con <a href=\"http://levhita.net/screenshots_gallery/\">Screenshots Gallery</a><br />
-    &copy;2006 <a href=\"http://blog.levhita.net/\" title=\"Radio Levhita\">Argel Arias</a><br />
+    "Hecho con <a href=\"https://github.com/levhita/Screenshot-Gallery\">Screenshots Gallery</a><br />
+    &copy;2006 <a href=\"http://levhita.net/\" title=\"Levhita\">Argel Arias</a><br />
     Este software esta bajo la licencia GPL",
   );
 ?>

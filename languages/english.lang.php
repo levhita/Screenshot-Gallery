@@ -17,8 +17,8 @@
   $language = array
   (
     'copyright notice' => 
-    "Powered by <a href=\"http://levhita.net/screenshots_gallery/\">Screenshots Gallery</a><br />
-    &copy;2006 <a href=\"http://blog.levhita.net/\" title=\"Radio Levhita\">Argel Arias</a><br />
+    "Powered by <a href=\"https://github.com/levhita/Screenshot-Gallery/\">Screenshots Gallery</a><br />
+    &copy;2006 <a href=\"http://levhita.net/\" title=\"Levhita\">Argel Arias</a><br />
     This is a Free Software released under the GPL license",
   );
 
